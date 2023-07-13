@@ -1,0 +1,108 @@
+body
+{
+    margin: 0;
+}
+
+.header-title
+{
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    padding-left: 77px;
+    width: 133px;
+    height: 25px;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10%;
+}
+
+.Scarecrow-Image
+{
+    width: 539.22px;
+    height: 447.43px;
+    padding-left: 77px;
+}
+
+.info-title
+{
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    width: 600px;
+    height: 190px;
+}
+
+.info-desc
+{
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    font-style: normal;
+    width: 400px;
+    height: 108px;
+}
+
+.info-button
+{
+    width: 216px;
+    height: 68px;
+    background-color: #333;
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) 
+{
+    .header-title
+    {
+        padding-left: 24px;
+    }
+
+    .grid-container
+    {
+        grid-template-columns: auto;
+        padding-left: 24px;
+    }
+
+    .Scarecrow-Image
+    {
+        width: 286.83px;
+        height: 238px;
+        padding-left: 10%;
+    }
+
+    .info-title
+    {
+        width: 350px;
+        height: 142px;
+        font-size: 48px;
+    }
+
+    .info-desc
+    {
+        width: 328px;
+        height: 81px;
+        font-size: 18px;
+        padding-bottom: 24px;
+    }
+
+    .info-button
+    {
+        width: 216px;
+        height: 68px;
+        font-size: 14px;
+    }
+}
